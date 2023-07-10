@@ -29,7 +29,6 @@
   font-weight: 600;
   border-bottom: 2px solid #ef9a9a;
   background-color: #ffebee;
-  padding: 5px 10px;
 }
 .color-header {
   color: rgb(25, 155, 171);
@@ -68,5 +67,8 @@
 @media (max-width: 900px) {
   .first-section {
     display: block;
+  }
+  .card {
+    margin: 5px auto;
   }
 }
