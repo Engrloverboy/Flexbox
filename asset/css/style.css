@@ -14,6 +14,7 @@
   width: 200px;
   border: 2px solid #ef9a9a;
   border-radius: 4px;
+  margin: 5px auto;
 }
 .cards {
   border: 2px solid rgb(25, 155, 171);
@@ -62,4 +63,10 @@
 }
 .mains {
   color: #d32f2f;
+}
+
+@media (max-width: 900px) {
+  .first-section {
+    display: block;
+  }
 }
